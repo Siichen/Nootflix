@@ -8,6 +8,7 @@ export const AppDataSource = new DataSource({
   type: "mongodb",
   url: process.env.DB_HOST,
   // entities: [],
+  //
 });
 
 AppDataSource.initialize() // promise
