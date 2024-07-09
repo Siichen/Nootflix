@@ -9,6 +9,7 @@ export const AppDataSource = new DataSource({
   url: process.env.DB_HOST,
   // entities: [],
   //
+  //
 });
 
 AppDataSource.initialize() // promise
